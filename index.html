@@ -38,6 +38,14 @@
         #teks-kuning {
             color: yellow;
         }
+
+        div p {
+            color: red;
+        }
+
+        div > div > p{
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -46,5 +54,12 @@
     </p>
     <p id="teks-kuning">CSS atau Cascading Style Sheets adalah sebuah bahasa yang digunakan
         untuk mengatur tampilan suatu halaman web</p>
+
+    <div>
+        <p>Ini adalah paragraf pertama.</p>
+        <div>
+            <p>Ini adalah paragraf kedua.</p>
+        </div>
+    </div>
 </body>
 </html>
